@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EAF561648DD6591B9FA8523 /* libPods-RememberLunch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A09190310EC7CE7CBD2EAA /* libPods-RememberLunch.a */; };
+		9FD5E2111C8A417700F5BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2101C8A417700F5BE84 /* main.m */; };
+		9FD5E2141C8A417700F5BE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2131C8A417700F5BE84 /* AppDelegate.m */; };
+		9FD5E2171C8A417700F5BE84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2161C8A417700F5BE84 /* ViewController.m */; };
+		9FD5E21C1C8A417700F5BE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5E21B1C8A417700F5BE84 /* Assets.xcassets */; };
+		9FD5E22A1C8A417700F5BE84 /* RememberLunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2291C8A417700F5BE84 /* RememberLunchTests.m */; };
+		9FD5E2351C8A417700F5BE84 /* RememberLunchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2341C8A417700F5BE84 /* RememberLunchUITests.m */; };
+		9FD5E2431C8A435700F5BE84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5E2421C8A435700F5BE84 /* Launch Screen.storyboard */; };
+		9FD5E2461C8A50F900F5BE84 /* KSPLunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E2451C8A50F900F5BE84 /* KSPLunchManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FD5E2261C8A417700F5BE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FD5E2041C8A417700F5BE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD5E20B1C8A417700F5BE84;
+			remoteInfo = RememberLunch;
+		};
+		9FD5E2311C8A417700F5BE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FD5E2041C8A417700F5BE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FD5E20B1C8A417700F5BE84;
+			remoteInfo = RememberLunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F17FCF4B0AC84B20022E8A4 /* Pods-RememberLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberLunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberLunch/Pods-RememberLunch.release.xcconfig"; sourceTree = "<group>"; };
+		9FD5E20C1C8A417700F5BE84 /* RememberLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD5E2101C8A417700F5BE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FD5E2121C8A417700F5BE84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FD5E2131C8A417700F5BE84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FD5E2151C8A417700F5BE84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FD5E2161C8A417700F5BE84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FD5E21B1C8A417700F5BE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FD5E2201C8A417700F5BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD5E2251C8A417700F5BE84 /* RememberLunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberLunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD5E2291C8A417700F5BE84 /* RememberLunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberLunchTests.m; sourceTree = "<group>"; };
+		9FD5E22B1C8A417700F5BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD5E2301C8A417700F5BE84 /* RememberLunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberLunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD5E2341C8A417700F5BE84 /* RememberLunchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberLunchUITests.m; sourceTree = "<group>"; };
+		9FD5E2361C8A417700F5BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD5E2421C8A435700F5BE84 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9FD5E2441C8A50F900F5BE84 /* KSPLunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPLunchManager.h; sourceTree = "<group>"; };
+		9FD5E2451C8A50F900F5BE84 /* KSPLunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPLunchManager.m; sourceTree = "<group>"; };
+		D0A09190310EC7CE7CBD2EAA /* libPods-RememberLunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RememberLunch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DED36AA75FE86B39B72227 /* Pods-RememberLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberLunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberLunch/Pods-RememberLunch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD5E2091C8A417700F5BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAF561648DD6591B9FA8523 /* libPods-RememberLunch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E2221C8A417700F5BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E22D1C8A417700F5BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CB23426F2123D9BDCBFBBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3DED36AA75FE86B39B72227 /* Pods-RememberLunch.debug.xcconfig */,
+				3F17FCF4B0AC84B20022E8A4 /* Pods-RememberLunch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BC129475D476BA9F2D54AEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A09190310EC7CE7CBD2EAA /* libPods-RememberLunch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD5E2031C8A417700F5BE84 = {
+			isa = PBXGroup;
+			children = (
+				9FD5E20E1C8A417700F5BE84 /* RememberLunch */,
+				9FD5E2281C8A417700F5BE84 /* RememberLunchTests */,
+				9FD5E2331C8A417700F5BE84 /* RememberLunchUITests */,
+				9FD5E20D1C8A417700F5BE84 /* Products */,
+				08CB23426F2123D9BDCBFBBD /* Pods */,
+				3BC129475D476BA9F2D54AEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD5E20D1C8A417700F5BE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5E20C1C8A417700F5BE84 /* RememberLunch.app */,
+				9FD5E2251C8A417700F5BE84 /* RememberLunchTests.xctest */,
+				9FD5E2301C8A417700F5BE84 /* RememberLunchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD5E20E1C8A417700F5BE84 /* RememberLunch */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5E2121C8A417700F5BE84 /* AppDelegate.h */,
+				9FD5E2131C8A417700F5BE84 /* AppDelegate.m */,
+				9FD5E2151C8A417700F5BE84 /* ViewController.h */,
+				9FD5E2161C8A417700F5BE84 /* ViewController.m */,
+				9FD5E21B1C8A417700F5BE84 /* Assets.xcassets */,
+				9FD5E2201C8A417700F5BE84 /* Info.plist */,
+				9FD5E2421C8A435700F5BE84 /* Launch Screen.storyboard */,
+				9FD5E2441C8A50F900F5BE84 /* KSPLunchManager.h */,
+				9FD5E2451C8A50F900F5BE84 /* KSPLunchManager.m */,
+				9FD5E20F1C8A417700F5BE84 /* Supporting Files */,
+			);
+			path = RememberLunch;
+			sourceTree = "<group>";
+		};
+		9FD5E20F1C8A417700F5BE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5E2101C8A417700F5BE84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FD5E2281C8A417700F5BE84 /* RememberLunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5E2291C8A417700F5BE84 /* RememberLunchTests.m */,
+				9FD5E22B1C8A417700F5BE84 /* Info.plist */,
+			);
+			path = RememberLunchTests;
+			sourceTree = "<group>";
+		};
+		9FD5E2331C8A417700F5BE84 /* RememberLunchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5E2341C8A417700F5BE84 /* RememberLunchUITests.m */,
+				9FD5E2361C8A417700F5BE84 /* Info.plist */,
+			);
+			path = RememberLunchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD5E20B1C8A417700F5BE84 /* RememberLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD5E2391C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunch" */;
+			buildPhases = (
+				84EE20C5A8716AE75F4EE5BC /* Check Pods Manifest.lock */,
+				9FD5E2081C8A417700F5BE84 /* Sources */,
+				9FD5E2091C8A417700F5BE84 /* Frameworks */,
+				9FD5E20A1C8A417700F5BE84 /* Resources */,
+				84FFC2AA79EB6C935E62728F /* Embed Pods Frameworks */,
+				F06CD542423AC0B10F3405C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RememberLunch;
+			productName = RememberLunch;
+			productReference = 9FD5E20C1C8A417700F5BE84 /* RememberLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FD5E2241C8A417700F5BE84 /* RememberLunchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD5E23C1C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunchTests" */;
+			buildPhases = (
+				9FD5E2211C8A417700F5BE84 /* Sources */,
+				9FD5E2221C8A417700F5BE84 /* Frameworks */,
+				9FD5E2231C8A417700F5BE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD5E2271C8A417700F5BE84 /* PBXTargetDependency */,
+			);
+			name = RememberLunchTests;
+			productName = RememberLunchTests;
+			productReference = 9FD5E2251C8A417700F5BE84 /* RememberLunchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FD5E22F1C8A417700F5BE84 /* RememberLunchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD5E23F1C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunchUITests" */;
+			buildPhases = (
+				9FD5E22C1C8A417700F5BE84 /* Sources */,
+				9FD5E22D1C8A417700F5BE84 /* Frameworks */,
+				9FD5E22E1C8A417700F5BE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FD5E2321C8A417700F5BE84 /* PBXTargetDependency */,
+			);
+			name = RememberLunchUITests;
+			productName = RememberLunchUITests;
+			productReference = 9FD5E2301C8A417700F5BE84 /* RememberLunchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD5E2041C8A417700F5BE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nativ Mobile LLC";
+				TargetAttributes = {
+					9FD5E20B1C8A417700F5BE84 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9FD5E2241C8A417700F5BE84 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9FD5E20B1C8A417700F5BE84;
+					};
+					9FD5E22F1C8A417700F5BE84 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9FD5E20B1C8A417700F5BE84;
+					};
+				};
+			};
+			buildConfigurationList = 9FD5E2071C8A417700F5BE84 /* Build configuration list for PBXProject "RememberLunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD5E2031C8A417700F5BE84;
+			productRefGroup = 9FD5E20D1C8A417700F5BE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD5E20B1C8A417700F5BE84 /* RememberLunch */,
+				9FD5E2241C8A417700F5BE84 /* RememberLunchTests */,
+				9FD5E22F1C8A417700F5BE84 /* RememberLunchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD5E20A1C8A417700F5BE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E2431C8A435700F5BE84 /* Launch Screen.storyboard in Resources */,
+				9FD5E21C1C8A417700F5BE84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E2231C8A417700F5BE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E22E1C8A417700F5BE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84EE20C5A8716AE75F4EE5BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84FFC2AA79EB6C935E62728F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RememberLunch/Pods-RememberLunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F06CD542423AC0B10F3405C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RememberLunch/Pods-RememberLunch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD5E2081C8A417700F5BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E2171C8A417700F5BE84 /* ViewController.m in Sources */,
+				9FD5E2141C8A417700F5BE84 /* AppDelegate.m in Sources */,
+				9FD5E2111C8A417700F5BE84 /* main.m in Sources */,
+				9FD5E2461C8A50F900F5BE84 /* KSPLunchManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E2211C8A417700F5BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E22A1C8A417700F5BE84 /* RememberLunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD5E22C1C8A417700F5BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E2351C8A417700F5BE84 /* RememberLunchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FD5E2271C8A417700F5BE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD5E20B1C8A417700F5BE84 /* RememberLunch */;
+			targetProxy = 9FD5E2261C8A417700F5BE84 /* PBXContainerItemProxy */;
+		};
+		9FD5E2321C8A417700F5BE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FD5E20B1C8A417700F5BE84 /* RememberLunch */;
+			targetProxy = 9FD5E2311C8A417700F5BE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FD5E2371C8A417700F5BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FD5E2381C8A417700F5BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD5E23A1C8A417700F5BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DED36AA75FE86B39B72227 /* Pods-RememberLunch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RememberLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD5E23B1C8A417700F5BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F17FCF4B0AC84B20022E8A4 /* Pods-RememberLunch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RememberLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FD5E23D1C8A417700F5BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RememberLunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RememberLunch.app/RememberLunch";
+			};
+			name = Debug;
+		};
+		9FD5E23E1C8A417700F5BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RememberLunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RememberLunch.app/RememberLunch";
+			};
+			name = Release;
+		};
+		9FD5E2401C8A417700F5BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RememberLunchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RememberLunch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9FD5E2411C8A417700F5BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RememberLunchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NTV.RememberLunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RememberLunch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD5E2071C8A417700F5BE84 /* Build configuration list for PBXProject "RememberLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD5E2371C8A417700F5BE84 /* Debug */,
+				9FD5E2381C8A417700F5BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD5E2391C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD5E23A1C8A417700F5BE84 /* Debug */,
+				9FD5E23B1C8A417700F5BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD5E23C1C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD5E23D1C8A417700F5BE84 /* Debug */,
+				9FD5E23E1C8A417700F5BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD5E23F1C8A417700F5BE84 /* Build configuration list for PBXNativeTarget "RememberLunchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD5E2401C8A417700F5BE84 /* Debug */,
+				9FD5E2411C8A417700F5BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD5E2041C8A417700F5BE84 /* Project object */;
+}
