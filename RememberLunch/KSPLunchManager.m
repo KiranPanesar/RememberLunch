@@ -90,14 +90,14 @@
     
     NSTimeInterval date = [dateString doubleValue];
     
-//    if ([[NSCalendar currentCalendar] isDate:[NSDate dateWithTimeIntervalSince1970:date] inSameDayAsDate:[NSDate date]]) {
+    if ([[NSCalendar currentCalendar] isDate:[NSDate dateWithTimeIntervalSince1970:date] inSameDayAsDate:[NSDate date]]) {
         UILocalNotification *notification = [UILocalNotification new];
     notification.category = @"actions_identifier";
     
         notification.alertBody = @"Did you bring lunch today? 🍞";
         
         [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
-//    }
+    }
 }
 
 - (void)handleActionWithIdentifier:(NSString *)string {
