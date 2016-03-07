@@ -23,7 +23,20 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We use low-energy beacons to let you know you&apos;re forgetting something!</string>
+	<string>We use low-energy beacons to let you know you're forgetting something!</string>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>lunch_glyph</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Will be set for tomorrow</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Set Reminder</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).set_reminder</string>
+		</dict>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
